@@ -1,0 +1,57 @@
+nav {
+    border: 1px;
+    background-color: grey;
+    color: white;
+    padding: 6px;
+    text-align: right;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+  }
+  #container{
+      padding: 50px;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  #middlebox {
+    width: 50%;
+    height: 280px;
+}
+  #leftbox {
+      width: 50%;
+      height: 280px;
+  }
+  #leftboxCert {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 280px;
+}
+  #leftboxCert img{
+      width: 100%;
+      height: auto;
+      max-width: 250px;
+  }
+  #containerCert{
+    padding: 50px;
+    display: flex;
+
+}
+  #middleboxCert {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      height: 280px;
+  }
+  #middleboxCert ul{
+      width: 50%;
+  }
+  
