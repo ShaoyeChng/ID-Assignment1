@@ -54,4 +54,31 @@ nav {
   #middleboxCert ul{
       width: 50%;
   }
-  
+
+    #leftboxProject {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 280px;
+}
+  #leftboxProject img{
+      width: 100%;
+      height: auto;
+      max-width: 250px;
+  }
+  #containerProject{
+    padding: 50px;
+    display: flex;
+    border-bottom: 1px solid black;
+
+}
+  #middleboxProject {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      height: 280px;
+      align-items: center;
+  }
+  #ProjectP{
+    width: 400px;
+  }
