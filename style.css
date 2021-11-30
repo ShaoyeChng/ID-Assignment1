@@ -5,7 +5,11 @@ nav {
     padding: 6px;
     text-align: right;
   }
-  
+  body{
+    background-image: url("Pictures/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   a {
     text-decoration: none;
     color: white;
@@ -41,7 +45,7 @@ nav {
       max-width: 250px;
   }
   #containerCert{
-    padding: 50px;
+    padding: 103px;
     display: flex;
   }
   #middleboxCert {
@@ -53,7 +57,6 @@ nav {
   #middleboxCert ul{
       width: 50%;
   }
-
     #leftboxProject {
     display: flex;
     justify-content: center;
@@ -66,9 +69,8 @@ nav {
       max-width: 250px;
   }
   #containerProject{
-    padding: 50px;
+    padding: 103px;
     display: flex;
-    border-bottom: 1px solid black;
   }
   #middleboxProject {
       display: flex;
@@ -131,3 +133,45 @@ nav {
 	position:relative;
 	top:1px;
 }
+.Buttons{
+  background-image: url(Pictures/Linkedin.png);
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 700px) {
+  #container,#containerCert,#containerProject,#ProjectP,#middleboxContact,#leftboxContact,#contact,#leftbox,#Contact{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+       }
+       .avatar{
+         width: 100%;
+         height: auto;
+       }
+       .ProjectP,#middleboxProject,#middleboxCert
+       {
+          text-align: center;
+          padding: 50px;
+       }
+       #middleboxCert,#middleboxProject{
+         height: unset;
+         width: unset;
+         padding: 10px;
+       }
+       #containerProject{
+         padding: 10px;
+       }
+       #leftboxProject{
+         width: 100%;
+       }
+       #ProjectP{
+         width: unset;
+       }
+       #middleboxContact{
+         display: block;
+         height: unset;
+       }
+  }

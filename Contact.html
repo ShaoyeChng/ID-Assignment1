@@ -5,26 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="Normalize.css">
     <link rel="stylesheet" href="style.css">
-    
 </head>
-<nav>
-    <a href="ID-Assignment1.html">Home</a> |
-    <a href="achievements.html">Achievement</a> |
-    <a href="project.html">Project</a> |
-    <a href="contact.html">Contact</a> |
-  </nav>
 <body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="Certification.html">Certification</a> |
+      <a href="project.html">Project</a> |
+      <a href="contact.html">Contact</a> |
+    </nav>
+  </header>
+  <main>
     <div id = "Contact">
-        <div id = "leftboxContact">
+      <div id = "leftboxContact">
+        <button onClick="window.open('https://www.linkedin.com/in/chng-shao-ye-374359211/')">
+          <img src="Pictures/Linkedin.png" alt="LinkedIn icon image" width="400" height="200">
+      </button>
+      </div>
+      <div id = "middleboxContact">
+          <p>You can click one Button to Email me!</p>
+          <p>Email: S10228016@connect.np.edu.sg</p>
+          <p>Phone Number: 12345678</p>
           <a href="mailto:S10228016@connect.np.edu.sg" class="Button" onclick="Email()">Email me!</a>
         </div>
-        <div id = "middleboxContact">
-            <p>you can click one the Button to Email me!</p>
-            <p>Email: S10228016@connect.np.edu.sg</p>
-            <p>Phone Number: 12345678</p>
-          </div>
-      </div>
-      <script src="Java.js"></script>          
+    </div>
+  </main>
+  <script src="script.js"></script>       
 </body>
 </html>
