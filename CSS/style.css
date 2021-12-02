@@ -6,7 +6,7 @@ nav {
     text-align: right;
   }
   body{
-    background-image: url("Pictures/Background.png");
+    background-image: url(/Pictures/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
