@@ -17,6 +17,11 @@ nav {
   }
   .avatar {
     vertical-align: middle;
+    width: auto;
+    height: auto;
+  }
+  .avatar1 {
+    vertical-align: middle;
     width: 200px;
     height: 200px;
   }
@@ -25,63 +30,36 @@ nav {
       display: flex;
       justify-content: space-evenly;
   }
-  #middlebox {
+  #box {
+    
     width: 50%;
-    height: 280px;
+
 }
-  #leftbox {
-      width: 50%;
-      height: 280px;
-  }
-  #leftboxCert {
+
+  #box1{
     display: flex;
     justify-content: center;
     width: 50%;
     height: 280px;
 }
-  #leftboxCert img{
-      width: 100%;
-      height: auto;
-      max-width: 250px;
-  }
+
   #containerCert{
-    padding: 103px;
+    padding: 10px;
     display: flex;
   }
-  #middleboxCert {
-      display: flex;
-      justify-content: center;
-      width: 50%;
-      height: 280px;
-  }
+
   #middleboxCert ul{
       width: 50%;
-  }
-    #leftboxProject {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    height: 280px;
-  }
-  #leftboxProject img{
-      width: 100%;
-      height: auto;
-      max-width: 250px;
-  }
-  #containerProject{
-    padding: 103px;
-    display: flex;
-  }
-  #middleboxProject {
       display: flex;
-      justify-content: center;
-      width: 50%;
-      height: 280px;
-      align-items: center;
+      padding: 10px;
   }
-  #ProjectP{
-    width: 400px;
+
+
+  #containerProject{
+    padding: 10px;
+    display: flex;
   }
+
   #Contact{
     padding: 50px;
     display: flex;
@@ -94,6 +72,9 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  #middleboxProject{
+    width: 40%;
   }
   #leftboxContact {
       width: 50%;
@@ -140,7 +121,7 @@ nav {
 }
 
 @media (max-width: 700px) {
-  #container,#containerCert,#containerProject,#ProjectP,#middleboxContact,#leftboxContact,#contact,#leftbox,#Contact{
+  #container,#containerCert,#containerProject,#ProjectP,#middleboxContact,#leftboxContact,#contact,#box,#Contact{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -151,12 +132,12 @@ nav {
          width: 100%;
          height: auto;
        }
-       .ProjectP,#middleboxProject,#middleboxCert
+       .ProjectP,#middleboxProject,#box1
        {
           text-align: center;
           padding: 50px;
        }
-       #middleboxCert,#middleboxProject{
+       #box1,#middleboxProject{
          height: unset;
          width: unset;
          padding: 10px;
