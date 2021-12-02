@@ -37,8 +37,11 @@ nav {
   #box1{
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 75%;
     height: 280px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
   }
 
   #containerCert{
@@ -119,6 +122,10 @@ nav {
   background-image: url(Pictures/Linkedin.png);
   width: 200px;
   height: 200px;
+}
+#form{
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 700px) {
