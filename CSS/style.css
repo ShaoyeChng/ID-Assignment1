@@ -40,11 +40,16 @@ a{
 #box1{
 	display: flex;
 	justify-content: center;
-	width: 75%;
+	width: 50%;
 	height: 280px;
 	padding: 20px;
 	top: 50%;
 	left: 50%;
+}
+#box2{
+	display: flex;
+	align-items: center;
+
 }
 
 #containerCert{
@@ -80,6 +85,8 @@ a{
 
 #middleboxProject{
 	width: 40%;
+	display: flex;
+	align-items: center;
 }
 
 #leftboxContact {
