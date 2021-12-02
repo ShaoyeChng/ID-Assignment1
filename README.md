@@ -4,6 +4,7 @@ Simple portfolio for futrue employers to see my certification and projects that 
 ## Design Process
 - A Simple Resume for my future employers to see my certifications and projects that i have done.
 - Button feature for my future employers to use just by one click to be able to email me or visit my linkedin Profile.
+- have a button feature when clicking will be able to auto copy my Email Address
 ## Features
 - Educational certification.
 - Showing past projects.
