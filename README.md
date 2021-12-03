@@ -1,10 +1,10 @@
 # ID-Assignment1
-Simple portfolio for futrue employers to see my certification and projects that i have done in the past.
-
+Simple portfolio for futrue employers to see my certification and projects that i have done in the past. i will be using what i learnt in school which is HTML,Java script and css to build from scratch. ultilizing Wireframe to sketch my webpage outline out and where the buttons to be before i move on to my HTML coding.
 ## Design Process
+- Doing a WireFrame sketch out the outline of my webpage.
 - A Simple Resume for my future employers to see my certifications and projects that i have done.
 - Button feature for my future employers to use just by one click to be able to email me or visit my linkedin Profile.
-- have a button feature when clicking will be able to auto copy my Email Address
+- Have a button feature when clicking will be able to auto copy my Email Address and a alert to tell user they have copied my email address.
 ## Features
 - Educational certification.
 - Showing past projects.
