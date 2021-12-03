@@ -1,5 +1,4 @@
 function Email(){
-    console.log("Email");
     navigator.clipboard.writeText("S10228016@connect.np.edu.sg");
-    alert("You have copied my email address also!")
+    alert("Thankyou for reaching out to me! You have also copied my Email Address to your clip board if your mail application does not load!")
 }
